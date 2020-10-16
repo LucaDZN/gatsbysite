@@ -7,7 +7,7 @@ const Contact = () => {
     <Layout>
         <section>
             <div className="container">
-            <p>Contact page</p>
+            <p>Contact page #1</p>
             </div>
         </section>
     </Layout>
