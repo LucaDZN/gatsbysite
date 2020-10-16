@@ -5,8 +5,11 @@ import Layout from '../components/layout'
 const Home = () => {
   return (
     <Layout>
-      <h1>Homepage</h1>
-      <Link to="/contact">Contact me</Link>
+      <section>
+        <div className="container">
+          <p>Hey there,<br/>I am Luca Tropea and I am an 18 years-old student based in Italy with a passion for web development.<br/> In my free time I work as a full-stack developer.</p>
+        </div>
+      </section>
     </Layout>
   )
 }

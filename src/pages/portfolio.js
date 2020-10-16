@@ -2,16 +2,16 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-const Contact = () => {
+const Portfolio = () => {
   return (
     <Layout>
         <section>
             <div className="container">
-            <p>Contact page</p>
+            <p>Portfolio page</p>
             </div>
         </section>
     </Layout>
   )
 }
 
-export default Contact
+export default Portfolio

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <h1>footer</h1>
-        </div>
+        <footer>
+            <p>© 2020 Luca Tropea. All rights reserved.</p>
+        </footer>
     )
 }
 
