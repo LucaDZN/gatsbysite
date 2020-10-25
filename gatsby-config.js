@@ -10,9 +10,7 @@ module.exports = {
       {
         resolve: `gatsby-plugin-sass`,
         options: {
-          postCssPlugins: [
-            require("tailwindcss"),
-          ],
+          postCssPlugins: [require("tailwindcss")],
         },
       },
     `gatsby-plugin-react-helmet`
