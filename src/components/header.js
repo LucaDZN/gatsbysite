@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 const Header = () => {
     return (
         <header>
@@ -10,9 +13,15 @@ const Header = () => {
                         <p className="logo">Luca Tropea</p>
                     </div>
                     <div className="inline-block float-right">
-                        <Link to="/">Home</Link>
-                        <Link to="/portfolio">Portfolio</Link>
-                        <Link to="/contact">Contact</Link>
+                    <AniLink paintDrip hex="#8a2c4c" to="/">
+                        Home
+                    </AniLink>
+                    <AniLink paintDrip hex="#8a2c4c" to="/portfolio">
+                        Portfolio
+                    </AniLink>
+                    <AniLink paintDrip hex="#8a2c4c" to="/contact">
+                        Contact
+                    </AniLink>
                     </div>
                 </div>
             </div>
