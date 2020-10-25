@@ -5,7 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Contact Page`,
+  },
   plugins: [
       {
         resolve: `gatsby-plugin-sass`,
@@ -16,4 +18,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`
   ],
 }
+
+
 

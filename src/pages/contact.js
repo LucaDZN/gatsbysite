@@ -1,17 +1,28 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
-const Contact = () => {
+const Contact = ({data}) => {
   return (
     <Layout>
         <section>
             <div className="container">
-            <p>Contact page #1</p>
+            <p>{data.site.siteMetadata.title}</p>
             </div>
         </section>
     </Layout>
   )
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
 
 export default Contact
