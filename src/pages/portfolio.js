@@ -8,6 +8,7 @@ const Portfolio = () => {
         <section>
             <div className="container">
             <p>Portfolio page</p>
+            <Link href="/contact">Contact</Link>
             </div>
         </section>
     </Layout>

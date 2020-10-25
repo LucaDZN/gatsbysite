@@ -3,7 +3,6 @@ import Header from './header.js'
 import Footer from './footer.js'
 import { Helmet } from "react-helmet"
 
-import '../styles/bootstrap.min.css'
 import '../styles/global.scss'
 
 const Layout = (props) => {

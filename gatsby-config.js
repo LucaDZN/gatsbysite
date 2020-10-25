@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet`],
+  plugins: [
+      {
+        resolve: `gatsby-plugin-sass`,
+        options: {
+          postCssPlugins: [
+            require("tailwindcss"),
+          ],
+        },
+      },
+    `gatsby-plugin-react-helmet`
+  ],
 }
+
